@@ -1,0 +1,90 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.page-outer {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin: 5px 8px;
+}
+
+div.page-inner {
+	vertical-align: middle;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.content {
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.text {
+	vertical-align: middle;
+	color: #2e3436;
+	clear: right;
+	text-shadow: #babdb6 2px 2px 1px;
+}
+
+span.first-text,
+span.second-text {
+	display: block;
+}
+
+span.first-text {
+	font-size: 10pt; 
+}
+
+span.second-text {
+	margin: 10px 0 0 0;
+	font-size: 29pt; 
+}
+
+a:hover,
+a:active,
+a:visited,
+a {
+	color: #0000ee;
+	text-decoration: underline;
+}
+.wrapper { width: 245px;  overflow: auto;}
+span.second-text a:hover,
+span.second-text a:active,
+span.second-text a:visited,
+span.second-text a {
+	/* color: #183765; */
+	text-shadow: #b7cee7 2px 2px 2px;
+	background: transparent url('../images/cursor.png') bottom right no-repeat;
+	padding: 0 34px 0 0;
+}
+
+
+span.copyright,
+span.repository {
+	display: block;
+}
+
+span.repository {
+	margin: 4px 0 0 0;
+}
+
+div.footer a,
+div.footer a:visited {
+	color: #555753;
+}
+
+div.footer a:hover,
+div.footer a:active {
+	color: #0000ee;
+}
+
+
+.clearfix {
+	clear: both;
+}
